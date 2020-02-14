@@ -1,0 +1,17 @@
+package mehedi;
+class A{
+    private final int a;
+    A(){
+        a=15;
+    }
+    public int abc(){
+        return a;
+    }
+}
+public class Mehedi {
+    public static void main(String[] args) {
+       A aa = new A();
+       int p=aa.abc();
+        System.out.println(p);
+    }
+}
